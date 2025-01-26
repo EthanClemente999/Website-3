@@ -1,4 +1,7 @@
 .sidebar {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -6,15 +9,16 @@
     background-color: rgb(237, 238, 225);
     width: 72px;
     z-index: 200;
+
     padding: 5px;
 }
 
 .sidebar-link {
-    height: 74px;
-    display: flex;
-    border-radius: 10px;
     justify-content: center;
     align-items: center;
+    height: 75px;
+    display: flex;
+    border-radius: 10px;
     flex-direction: column;
     padding: 5px;
     transition: 0.7s;
@@ -25,17 +29,16 @@
     text-decoration: none;
 }
 
-#sidebar-link-special {
-    padding-left: 10px;
-}
-
 .sidebar-link:hover {
     background-color: lightgrey;
 }
 
 .sidebar-link img {
-    height: 24px;
-    margin-bottom: 4px;
+    display: block;
+    width: 50%;
+    height: 46px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sidebar-link div {
