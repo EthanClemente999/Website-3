@@ -1,0 +1,229 @@
+body {
+    display: flex;
+    padding: 90px 0px 0px 90px;
+    background-color: beige;
+    transition: 0.8s;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+mark {
+    background-color: red;
+    color: yellow;
+}
+
+
+.logo-name {
+    padding-left: 10px;
+}
+
+.pic-container-1 {
+    float: right;
+    padding-right: 20px;
+}
+
+.pic-description-1 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 75%;
+}
+
+.pic-container-2 {
+    float: left;
+    padding-right: 10px;
+}
+
+.pic-description-2 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.pic-container-3 {
+    float: right;
+    padding-right: 10px;
+}
+
+.pic-description-3 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+
+.pic-container-4 {
+    float: left;
+    padding-right: 10px;
+}
+
+.pic-description-4 {
+    border: 5px solid black;
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
+.information-container {
+    width: 1800px;
+}
+
+.information-box {
+    border: 7px solid lightgrey;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.information-box h1, h2, h3, h4, h5, p, dt, dd {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 3px;
+}
+
+.information-box dd {
+    font-size: 26px;
+}
+
+.description-list {
+    width: 1750px;
+    border: 5px solid black;
+ 
+}
+
+.albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 5%;
+}
+
+.albums-container {
+    width: 445px;
+}
+
+.albums-container p {
+    font-size: 19px;
+}
+
+
+.album-picture-container-savage-1 {
+    border: 7px solid red;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-keshi {
+    border: 7px solid black;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-savage-2 {
+    border: 7px solid lightblue;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-joji {
+    border: 7px solid cyan;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-juice-wrld {
+    border: 7px solid darkblue;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-one-direction {
+    border: 7px solid orange;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-the-1975 {
+    border: 7px solid lightgrey;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-alec-benjamin {
+    border: 7px solid skyblue;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-beabadoobee {
+    border: 7px solid lightpink;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-metro-boomin-1 {
+    border: 7px solid darkblue;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.album-picture-container-jvke {
+    border: 7px solid rgb(145, 240, 240);
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-metro-boomin-2 {
+    border: 7px solid firebrick;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture {
+    width: 256px;
+    height: 256px;
+}
+
+
+a {
+    font-size: 26px;
+    color: black; 
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #000;
+    display: none;
+}
