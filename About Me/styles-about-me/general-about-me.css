@@ -210,11 +210,34 @@ mark {
     text-align: center;
 }
 
+.album-picture-container-kendrick-lamar {
+    border: 7px solid gray;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-metro-boomin-3 {
+    border: 7px solid darkslategrey;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
+.album-picture-container-drake{
+    border: 7px solid pink;
+    width: 400px;
+    height: 315px;
+    padding: 15px;
+    text-align: center;
+}
+
 .album-picture {
     width: 256px;
     height: 256px;
 }
-
 
 a {
     font-size: 26px;
