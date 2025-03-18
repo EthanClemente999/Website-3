@@ -245,7 +245,7 @@ mark {
     grid-template-rows: 1fr 1fr;
     row-gap: 20px;
     column-gap: 20px;
-    padding-left: 0.5%;
+    padding: 0.5%;
 }
 
 a {
